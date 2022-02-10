@@ -1,0 +1,29 @@
+@import "utils";
+@import "fonts";
+@import "typography";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  max-width: 760px;
+  margin: 20px auto;
+  .gallery__img {
+    width: 100%;
+    border: solid 1px rgb(136, 136, 136);
+  }
+  .gallery__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    li {
+      list-style-type: none;
+    }
+    .gallery__thumb {
+      cursor: pointer;
+      height: 108px;
+    }
+  }
+}

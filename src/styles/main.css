@@ -1,0 +1,2 @@
+h1{font-family:"Roboto", sans-serif;font-weight:400}@font-face{font-family:"Roboto";src:url("../fonts/Roboto-Regular-webfont.woff") format("woff");font-weight:normal;font-style:normal}*{margin:0;padding:0}.gallery{max-width:760px;margin:20px auto}.gallery .gallery__img{width:100%;border:solid 1px #888}.gallery .gallery__list{display:grid;grid-template-columns:repeat(4, 1fr);grid-gap:5px}.gallery .gallery__list li{list-style-type:none}.gallery .gallery__list .gallery__thumb{cursor:pointer;height:108px}
+/*# sourceMappingURL=main.css.map */
